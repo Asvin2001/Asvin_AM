@@ -159,11 +159,11 @@ var nam = add.get("name")
 
 if (hi == "response_sumitted_successfully") {
     alert("Feedback Submitted Successfully \nThank you " + nam)
-    window.location.replace("http://127.0.0.1:5500/index.html")
+    window.location.replace("https://asvin2001.github.io/Asvin_AM/")
 }
 else if (hi == "star_sumitted_successfully") {
     alert("Thank you for rating " + st + " stars " + nam)
-    window.location.replace("http://127.0.1:5500/index.html")
+    window.location.replace("https://asvin2001.github.io/Asvin_AM/")
 
 }
 
