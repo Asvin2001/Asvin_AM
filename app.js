@@ -30,6 +30,14 @@ var ci=document.querySelectorAll("#star-form input")[0]
 var nav=document.getElementsByTagName("nav")[0]
 var snow=document.getElementsByClassName("fa-snowflake")
 
+
+
+var loader=document.getElementById("loader")
+window.addEventListener("load", function () {
+    loader.classList.add("d-none")
+    body.style.opacity = "1"
+})
+
 function themefu() {
     if (theme.checked == true) {
         themeball.style.left = "32px"
